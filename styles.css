@@ -1,0 +1,30 @@
+/* Type */
+
+body {
+	background-color: lavender;
+	color: lavender;
+	font-family: sans-serif;
+	line-height: 0.025;
+	font-size: 7em;
+	text-shadow: 10px 10px coral;
+	opacity: 1;
+}
+main {
+    transform: scaleX(-1) skew(10deg, 10deg);
+}
+.new-color {
+	color: white;
+}
+.other-font {
+	font-family: serif;
+}
+.awful {
+	position: absolute;
+    top: 5em;
+    transform: rotate(90deg) scaleY(6.5);
+    font-family: georgia;
+    text-transform: uppercase;
+    font-style: italic;
+    opacity: 0.75;
+    color: red;
+}
